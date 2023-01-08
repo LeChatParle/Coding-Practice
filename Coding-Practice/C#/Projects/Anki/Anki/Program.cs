@@ -11,22 +11,9 @@ public class checkForUniqueCharacters {
 		
 		List<char> HSKListSplit = new List<char>(splitIntoArrayOfHanzi("HSK.txt"));
 		List<char> ListToBeCompared = new List<char>(splitIntoArrayOfHanzi("test.txt"));
+		List<char> ListOfNonHSKChars = new List<char> (compareArrayToHSK(HSKListSplit, ListToBeCompared));
 		
-		compareArrayToHSK(HSKListSplit, ListToBeCompared);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		//compareArrayToHSK();
-		
-		//File.WriteAllLines(@"writeText.txt", charactersToBeWrittenToFile);
-		
-		//Console.WriteLine(nonEnglish);
+		writeUniqueHanzi2TextFile(ListOfNonHSKChars);
 
 	}
 	
@@ -42,12 +29,11 @@ public class checkForUniqueCharacters {
 							.Select(m => m.Groups[0].Value)
 							.ToList();
 		
-		foreach (string s in nonEnglish) {
-			
+		foreach (string s in nonEnglish)
+		{
 			foreach (char c in s)
 			{
 				charactersSplitIntoCharArray.Add(c);
-				//Console.WriteLine("This is a character: {0}", c);
 			}
 		}
 		
@@ -55,7 +41,7 @@ public class checkForUniqueCharacters {
 	}
 	
 	//Method #2
-	private static void compareArrayToHSK(List<char> HSK, List<char> nonHSK) {
+	private static List<char> compareArrayToHSK(List<char> HSK, List<char> nonHSK) {
 		
 		List<char> nonHSKCharactersButNotUnique = new List<char>();
 		
@@ -67,10 +53,31 @@ public class checkForUniqueCharacters {
 			} 
 		}
 		
+		return nonHSKCharactersButNotUnique;
+		
 	}
 	
-	private static void writeUniqueHanzi2TextFile() {
-		//make sure to check if char was already written
+	//Method #3
+	private static void writeUniqueHanzi2TextFile(List<char> ListToPrint) {
+		
+		List<char> CheckThisListForDuplicatesThenWriteToFile = new List<char> ();
+		
+		//Check for duplicates
+		foreach (char c in ListToPrint)
+		{
+			if (!(CheckThisListForDuplicatesThenWriteToFile.Contains(c)))
+			{
+				CheckThisListForDuplicatesThenWriteToFile.Add(c);
+			}
+		}
+		
+		//Write to file
+		using (StreamWriter writer = new StreamWriter("writeText.txt"))
+		{
+			foreach (char c in CheckThisListForDuplicatesThenWriteToFile)
+			{
+				writer.Write(c);
+			}
+		}
 	}
-
 }
