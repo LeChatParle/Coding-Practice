@@ -1,0 +1,5 @@
+/Users/obsidian/Misc/C#/Codewars/Project-0003/obj/Debug/net7.0/Project-0003.csproj.AssemblyReference.cache
+/Users/obsidian/Misc/C#/Codewars/Project-0003/obj/Debug/net7.0/Project-0003.GeneratedMSBuildEditorConfig.editorconfig
+/Users/obsidian/Misc/C#/Codewars/Project-0003/obj/Debug/net7.0/Project-0003.AssemblyInfoInputs.cache
+/Users/obsidian/Misc/C#/Codewars/Project-0003/obj/Debug/net7.0/Project-0003.AssemblyInfo.cs
+/Users/obsidian/Misc/C#/Codewars/Project-0003/obj/Debug/net7.0/Project-0003.csproj.CoreCompileInputs.cache

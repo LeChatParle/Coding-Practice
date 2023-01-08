@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "G6scZo83OH7RD3FHQp9slXTtIBn1bqjnAYtpDldfma8=",
+  "Source": "EdwardsBJeremy",
+  "BasePath": "_content/EdwardsBJeremy",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EdwardsBJeremy/wwwroot",
+      "Source": "EdwardsBJeremy",
+      "ContentRoot": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/wwwroot/",
+      "BasePath": "_content/EdwardsBJeremy",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/bundle/EdwardsBJeremy.styles.css",
+      "SourceId": "EdwardsBJeremy",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/EdwardsBJeremy",
+      "RelativePath": "EdwardsBJeremy.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/bundle/EdwardsBJeremy.styles.css"
+    },
+    {
+      "Identity": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/projectbundle/EdwardsBJeremy.bundle.scp.css",
+      "SourceId": "EdwardsBJeremy",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/EdwardsBJeremy",
+      "RelativePath": "EdwardsBJeremy.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/obj/Debug/net7.0/scopedcss/projectbundle/EdwardsBJeremy.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/wwwroot/background.png",
+      "SourceId": "EdwardsBJeremy",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/wwwroot/",
+      "BasePath": "_content/EdwardsBJeremy",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/background.png"
+    },
+    {
+      "Identity": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/wwwroot/exampleJsInterop.js",
+      "SourceId": "EdwardsBJeremy",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/obsidian/Misc/C#/Projects/Website/EdwardsBJeremy/EdwardsBJeremy/wwwroot/",
+      "BasePath": "_content/EdwardsBJeremy",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/exampleJsInterop.js"
+    }
+  ]
+}
